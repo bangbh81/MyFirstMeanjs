@@ -16,7 +16,9 @@
     "ng-img-crop": "ngImgCrop#^0.3.2",
     "owasp-password-strength-test": "~1.3.0",
     "angular-highlightjs": "^0.6.2",
-    "highlightjs": "^9.6.0"
+    "highlightjs": "^9.6.0",
+    "angular-google-maps": "^2.4.0",
+    "ngmap": "^1.17.6"
   },
   "overrides": {
     "bootstrap": {
@@ -29,5 +31,8 @@
     "jquery": {
       "main": []
     }
+  },
+  "devDependencies": {
+    "livereload-js": "^2.2.1"
   }
 }

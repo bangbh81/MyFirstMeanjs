@@ -27,6 +27,8 @@ module.exports = {
         'public/lib/owasp-password-strength-test/owasp-password-strength-test.js',
         'public/lib/angular-highlightjs/build/angular-highlightjs.js',
         'public/lib/highlightjs/highlight.pack.js',
+        '//maps.google.com/maps/api/js?key=AIzaSyBi0Y6gdUSxg9SL2yySISl3DSqy4BnPs7k',
+        'public/lib/ngmap/build/scripts/ng-map.min.js'
         // endbower
       ],
       tests: ['public/lib/angular-mocks/angular-mocks.js']
