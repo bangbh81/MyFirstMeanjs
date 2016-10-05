@@ -18,11 +18,12 @@
       });
     };
   }
-  AWS.config.update({
-    region: 'ap-northeast-1',
-    endpoint: 'https://dynamodb.ap-northeast-1.amazonaws.com',
-    accessKeyId: 'AKIAJSZLRE4VWDTM7QQA', secretAccessKey: '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'
-  });
+  AWS.config.loadFromPath('./config.json');
+  // AWS.config.update({
+  //   region: 'ap-northeast-1',
+  //   endpoint: 'https://dynamodb.ap-northeast-1.amazonaws.com',
+  //   accessKeyId: 'AKIAJSZLRE4VWDTM7QQA', secretAccessKey: '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'
+  // });
   var docClient = new AWS.DynamoDB.DocumentClient();
   var table = 'MQTT-RAW';
   var mqtt_raw = '1';
