@@ -28,7 +28,8 @@ module.exports = {
         'public/lib/angular-highlightjs/build/angular-highlightjs.js',
         'public/lib/highlightjs/highlight.pack.js',
         '//maps.google.com/maps/api/js?key=AIzaSyBi0Y6gdUSxg9SL2yySISl3DSqy4BnPs7k',
-        'public/lib/ngmap/build/scripts/ng-map.min.js'
+        'public/lib/ngmap/build/scripts/ng-map.min.js',
+        'public/lib/aws-sdk/dist/aws-sdk.min.js'
         // endbower
       ],
       tests: ['public/lib/angular-mocks/angular-mocks.js']
