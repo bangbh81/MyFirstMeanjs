@@ -10,7 +10,7 @@
   AWS.config.update({
     region: 'ap-northeast-1',
     endpoint: 'https://dynamodb.ap-northeast-1.amazonaws.com',
-    accessKeyId: 'AKIAJ27JLSFIFYD62MCA', secretAccessKey: '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'
+    accessKeyId: 'AKIAJBDMCVYOPAIR4RUQ', secretAccessKey: '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'
   });
   var YData = new Array();
   var XData = new Array();
