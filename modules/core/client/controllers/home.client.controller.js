@@ -51,8 +51,8 @@
               x: item.timestamp,
               y: [parseInt(item.payload.state.reported.data, 3)]
             });
-            $scope.tdsData = item.payload.state.reported.data, 3;
-            $scope.timeStamp = item.timestamp;
+          $scope.tdsData = item.payload.state.reported.data;
+          $scope.timeStamp = item.timestamp;
           console.log(' -', item.timestamp + ': ' + item.payload.state.reported.data);
         });
       }
