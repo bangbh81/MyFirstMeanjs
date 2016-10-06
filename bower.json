@@ -18,7 +18,8 @@
     "angular-highlightjs": "^0.6.2",
     "highlightjs": "^9.6.0",
     "angular-google-maps": "^2.4.0",
-    "ngmap": "^1.17.6"
+    "ngmap": "^1.17.6",
+    "angular-chart.js": "^1.0.3"
   },
   "overrides": {
     "bootstrap": {

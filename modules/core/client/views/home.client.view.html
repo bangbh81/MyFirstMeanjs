@@ -1,11 +1,26 @@
-<section>
+<section ng-controller="HomeController">
   <div ng-app="ngMap" style ="margin-top:55px;">
-    <ng-map class="angular-google-map-container"
+    <ng-map id="map" class="angular-google-map-container"
           center="37.378502,127.112685"
           zoom="15"
           map-type-control-options="{position:'TOP_RIGHT'}"
           >
-      <marker position="37.378502,127.112685" on-click="click($event)" title="Wiznet CO.LTD"></marker>
+      <marker id="marker1"
+      position="37.378502,127.112685"
+      on-click="click($event)"
+      on-mouseover="map.showInfoWindow('bar')"
+      on-mouseout="map.hideInfoWindow('bar')"
+      title="Wiznet CO.LTD"></marker>
+      <info-window id="bar">
+        <div
+          data-ac-chart="'line'"
+          data-ac-data="chdata"
+          data-ac-config="config"
+          class="chart">
+          <h2>Time Stamp : {{timeStamp}}</h2>
+          <h2>TDS : {{tdsData}}</h2>
+        </div>
+      </info-window>
     </ng-map>
     <div class="logo_top"></div>
   </div>

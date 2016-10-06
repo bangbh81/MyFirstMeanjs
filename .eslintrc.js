@@ -69,6 +69,7 @@ module.exports = {
     __TESTING__: true,
     _: false,
     ApplicationConfiguration: true,
-    AWS: false
+    AWS: false,
+    google: false
   }
 };
